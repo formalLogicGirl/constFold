@@ -1,5 +1,5 @@
 # constFold
-Implementation of constant folding in R6RS scheme.
+Implementation of constant folding using R6RS scheme.
 
 Constant folding is a strength reduction compiler optimization that recognizes and evaluates constant expressions during
 compliation instead of at runtime.
