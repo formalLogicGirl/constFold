@@ -14,6 +14,8 @@ Example of constant folding:
 reduces to
 {asgn_expr {var RES} {add {add {add {var A} {const 5}} {var A}} {const 28}}}
 
+Grammar for expressions:
+
 S     -->    asgn_exp var-decl exp
 
 exp  -->    { add exp exp }
