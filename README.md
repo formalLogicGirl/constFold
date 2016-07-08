@@ -15,11 +15,15 @@ reduces to
 {asgn_expr {var RES} {add {add {add {var A} {const 5}} {var A}} {const 28}}}
 
 S     -->    asgn_exp var-decl exp
+
 exp  -->    { add exp exp }
                | var-decl
                | { const num }
+               
 var-decl --> { var id }
+
 id -->   Scheme identifier
+
 num --> Scheme number 
 
 
